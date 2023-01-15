@@ -26,7 +26,7 @@ public class CreatePDFFile {
             // now write to the document
             Paragraph p = new Paragraph();
             p.setAlignment(Element.ALIGN_CENTER);
-            p.add("Paragraph Text");
+            p.add("Paragraph Text from David");
 
             newpdfDoc.add(p);
 
